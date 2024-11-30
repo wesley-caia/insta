@@ -1,0 +1,119 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+a{
+  color: #3c96ed;
+  text-decoration: none;
+}
+
+body{
+  background: #FAFAFA;
+  height: 100%;
+  width: 100%;
+  margin:0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+#geral{
+  height: 100vh;
+}
+
+#container{
+  margin: 0 auto;
+  min-height: 100%;
+  width: 800px;
+  display: flex;
+  align-items: center;
+ 
+}
+.coluna{
+flex-grow: 1;
+width:50%;
+}
+.esquerda{
+  background-image: url(assets/main-foto.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 450px;
+  height: 600px;
+  margin-bottom: 50px;
+}
+
+.direita{
+padding-left: 20px;
+  /* margin-left: 10px; */
+  
+}
+.login-insta{
+ background-color: white;
+ border: solid 1px gray;
+ text-align: center;
+ padding: 20px 0;
+}
+.logo{
+  width: 200px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+input[type="text"],input[type="password"]{
+  min-height: 40px;
+  padding: 5px;
+  width: 250px;
+  margin: 10px 0;
+  border-radius: 4px;
+  background-color: aliceblue;
+  border: solid 1px gray;
+}
+input[type="text"]::placeholder, input[type="password"]::placeholder{
+  color: rgb(187, 186, 186);
+}
+
+input[type="text"]:focus, input[type="password"]:focus{
+outline: 0;
+}
+
+input[type="submit"]{
+  width: 250px;
+  min-height: 30px ;
+  background-color: #3c96ed;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.cadastro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  min-height: 60px;
+  border: solid gray 1px;
+}
+
+.cadastro a{
+  font-size: 15px;
+  font-weight: bold;
+}
+.aplicativo{
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+.imagens img{
+  width: 150px;
+  margin: 20px 5px ;
+  
+  
+}
